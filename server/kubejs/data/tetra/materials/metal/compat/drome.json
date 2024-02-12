@@ -1,0 +1,26 @@
+{
+    "key": "drome",
+    "category": "metal",
+    "primary": 6.4,
+    "secondary": 2.3,
+    "tertiary": 3.5,
+    "durability": 777,
+    "integrityCost": 1,
+    "integrityGain": 10,
+    "magicCapacity": 200,
+    "toolLevel": "minecraft:netherite",
+    "toolEfficiency": 8,
+    "tints": {
+        "glyph": "830f80",
+        "texture": "d43ed2"
+    },
+    "textures": [
+        "metal"
+    ],
+    "material": {
+        "items": ["kubejs:drome_ingot"]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    }
+}

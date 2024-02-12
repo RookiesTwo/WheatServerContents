@@ -1,0 +1,27 @@
+{
+    "key": "wheat",
+    "category": "metal",
+    "primary": 4.7,
+    "secondary": 4,
+    "tertiary": 3,
+    "durability": 250,
+    "integrityCost": 2,
+    "integrityGain": 6,
+    "magicCapacity": 100,
+    "toolLevel": "minecraft:stone",
+    "toolEfficiency": 7,
+    "tints": {
+        "glyph": "634f1b",
+        "texture": "cdb159"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": ["kubejs:wheat_ingot"]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:wood"
+    }
+}
