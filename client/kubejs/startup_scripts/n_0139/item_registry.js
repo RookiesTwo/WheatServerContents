@@ -18,4 +18,12 @@ onEvent('item.registry', event => {
             .alwaysEdible()
             .effect('luck', 6000,0,1)
     })
+    event.create('cotton_candy').displayName('棉花糖').tooltip('好吃到飘起来').food(food=>{
+        food
+            .hunger(1)
+            .saturation(2)
+            .fastToEat()
+            .alwaysEdible()
+            .effect('levitation', 100,0,1)
+    })
 })
