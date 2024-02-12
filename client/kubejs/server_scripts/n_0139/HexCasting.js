@@ -1,13 +1,13 @@
 onEvent('recipes', event => {
-    event.remove({input: Item.of('hexcasting:akashic_log')})
-    event.remove({input: Item.of('hexcasting:akashic_log_stripped'),type:'create:splashing'})
-    event.remove({input: Item.of('hexcasting:akashic_wood'),type:'create:splashing'})
-    event.remove({input: Item.of('hexcasting:akashic_wood_stripped'),type:'create:splashing'})
+    event.remove({input: Item.of('hexcasting:akashic_log'), output:'minecraft:charcoal'})
+    event.remove({input: Item.of('hexcasting:akashic_log_stripped'), output:'minecraft:charcoal'})
+    event.remove({input: Item.of('hexcasting:akashic_wood'), output:'minecraft:charcoal'})
+    event.remove({input: Item.of('hexcasting:akashic_wood_stripped'), output:'minecraft:charcoal'})
     event.remove({output: Item.of('hexcasting:charged_amethyst')})
-    event.smelting('kubejs:akashic_dust','hexcasting:akashic_log')
-    event.smelting('kubejs:akashic_dust','hexcasting:akashic_log_stripped')
-    event.smelting('kubejs:akashic_dust','hexcasting:akashic_wood')
-    event.smelting('kubejs:akashic_dust','hexcasting:akashic_wood_stripped')
+    event.smelting('kubejs:akashic_dust', 'hexcasting:akashic_log')
+    event.smelting('kubejs:akashic_dust', 'hexcasting:akashic_log_stripped')
+    event.smelting('kubejs:akashic_dust', 'hexcasting:akashic_wood')
+    event.smelting('kubejs:akashic_dust', 'hexcasting:akashic_wood_stripped')
     event.custom(
         {
             "type": "create:splashing",
