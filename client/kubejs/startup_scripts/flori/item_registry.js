@@ -29,7 +29,7 @@ onEvent('item.registry', event => {
 			.alwaysEdible()
 			.effect('minecraft:hunger', 60, 255, 1)
 	});
-	event.create('health_juice').displayName('生命果汁').tooltip('不是苍蝇汁！').useAnimation('drink').maxDamage(60).food(food => {
+	/*event.create('health_juice').displayName('生命果汁').tooltip('不是苍蝇汁！').useAnimation('drink').maxDamage(60).food(food => {
 		food
 			.hunger(0)
 			.saturation(0)
@@ -49,7 +49,7 @@ onEvent('item.registry', event => {
 			.eaten(eat1 => {
 				eat1.player.give('kubejs:soda_can')
 			})
-	});
+	});*/
 	event.create('53', 'sword').displayName('五年高考三年模拟').attackDamageBonus(99993);
 	event.create('dread_ascarid').displayName('§7惊惧蛔虫');
 	event.create('spectrum_fmn').displayName('光谱勿忘草');
@@ -58,7 +58,7 @@ onEvent('item.registry', event => {
 	event.create('drome_ingot').displayName('梦穹金锭');
 	event.create('drome_nugget').displayName('梦穹金粒');
 	event.create('sacabambaspis').fireResistant(true).displayName('萨卡班甲鱼');
-	event.create('soda_can').displayName('汽水罐');
+	//event.create('soda_can').displayName('汽水罐');
 	event.create('perfection').displayName('满分考卷');
 	event.create('wheat_nugget').displayName('§e麦粒');
 	event.create('wheat_ingot').displayName('§e麦锭');
