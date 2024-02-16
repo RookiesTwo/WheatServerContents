@@ -22,4 +22,16 @@ onEvent('item.entity_interact', event => {
     event.item.count --
 })
 onEvent('recipes', event => {
+    event.shaped('kubejs:flori_fox_tail', [
+        'ZBC',
+        'DFD',
+        'DDD'
+    ],{
+        Z: 'zetter:palette',
+        B: 'kubejs:perfection',
+        C: '#forge:bars/chocolate',
+        D: 'kubejs:drome_nugget',
+        F: '#kubejs:fox_tail'
+    })
 })
+
