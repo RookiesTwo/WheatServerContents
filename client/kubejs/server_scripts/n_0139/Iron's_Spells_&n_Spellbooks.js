@@ -25,7 +25,27 @@ onEvent('recipes', event => {
                 {
                     "fluid": "create_enchantment_industry:ink",
                     "nbt": {},
-                    "amount": 2000
+                    "amount": 1000
+                }
+            ],
+            "results": [
+                {
+                    "item": "kubejs:incomplete_ink"
+                }
+            ]
+        }
+    )
+    event.custom(
+        {
+            "type": "create:filling",
+            "ingredients": [
+                {
+                    "item": "kubejs:incomplete_ink"
+                },
+                {
+                    "fluid": "create_enchantment_industry:ink",
+                    "nbt": {},
+                    "amount": 1000
                 }
             ],
             "results": [
