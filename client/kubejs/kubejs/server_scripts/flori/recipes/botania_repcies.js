@@ -1,5 +1,0 @@
-onEvent('recipes', event => {
-    event.recipes.botania.runic_altar("kubejs:dragons_soul", ['tetra:dragon_sinew', 'botania:rune_gluttony', 'botania:rune_greed', 'minecraft:dragon_breath', 'irons_spellbooks:dragonskin', 'quark:dragon_scale', 'ends_delight:dragon_tooth', 'minecraft:dragon_head', 'botania:rune_pride', 'botania:rune_envy', 'botania:rune_wrath', 'botania:rune_sloth', 'botania:rune_lust'], 50000)
-    event.recipes.botania.petal_apothecary('kubejs:spectrum_fmn', ['enigmaticlegacy:earth_heart', 'hexerei:yellow_dock_flowers', 'hexerei:yellow_dock_leaves', 'hexerei:belladonna_berries', 'hexerei:mugwort_leaves', 'hexerei:mugwort_flowers', 'hexerei:mandrake_root', 'hexerei:mandrake_flowers', 'hexerei:belladonna_flowers'])
-    event.recipes.botania.petal_apothecary('kubejs:nightmare_carrot', ['kubejs:dread_ascarid', 'kubejs:dread_ascarid', 'kubejs:drome_nugget', 'kubejs:drome_nugget', 'kubejs:drome_nugget', 'kubejs:drome_nugget', 'minecraft:phantom_membrane', 'minecraft:phantom_membrane', 'minecraft:golden_carrot']);
-})

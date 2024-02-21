@@ -1,4 +1,5 @@
 onEvent('recipes', event => {
+  //萨卡班甲鱼
   event.custom({
     "type": "hexerei:mixingcauldron",
     "liquid": {
@@ -39,6 +40,7 @@ onEvent('recipes', event => {
     },
     "fluidLevelsConsumed": 2000
   })
+  //魔艺之星
   event.custom({
     "type": "malum:spirit_infusion",
     "input": {
@@ -117,6 +119,7 @@ onEvent('recipes', event => {
       }
     ]
   })
+  //粗梦穹金
   event.custom({
     "type": "malum:spirit_infusion",
     "input": {
@@ -151,6 +154,7 @@ onEvent('recipes', event => {
       }
     ]
   })
+  //龙魂合成龙包
   event.custom({
     "type": "travelersbackpack:backpack_shaped",
   
@@ -195,6 +199,7 @@ onEvent('recipes', event => {
       "count": 1
     }
   })
+  //蛔虫线
   event.custom({
     "type": "psi:trick_crafting",
     "input": {
@@ -208,6 +213,7 @@ onEvent('recipes', event => {
     },
     "trick": "psi:trick_greater_infusion"
   })
+  //梦魇胡萝卜
   event.custom({
     "type": "farmersdelight:cooking",
     "recipe_book_tab": "meals",
@@ -236,5 +242,34 @@ onEvent('recipes', event => {
     },
     "experience": 10.0,
     "cookingtime": 1000
+  })
+  //萤石与红石
+  event.custom({
+    "type": "psi:dimension_trick_crafting",
+    "input": {
+      "item": "minecraft:redstone"
+    },
+    "output": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "cad": {
+      "item": "psi:cad_assembly_psimetal"
+    },
+    "trick": "psi:trick_ebony_ivory",
+    "dimension": "minecraft:overworld"
+  })
+  event.custom({
+    "type": "psi:dimension_trick_crafting",
+    "input": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "output": {
+      "item": "minecraft:redstone"
+    },
+    "cad": {
+      "item": "psi:cad_assembly_psimetal"
+    },
+    "trick": "psi:trick_ebony_ivory",
+    "dimension": "minecraft:overworld"
   })
 })

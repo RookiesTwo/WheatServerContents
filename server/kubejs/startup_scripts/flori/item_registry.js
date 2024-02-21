@@ -63,4 +63,5 @@ onEvent('item.registry', event => {
 	event.create('wheat_nugget').displayName('§e麦粒');
 	event.create('wheat_ingot').displayName('§e麦锭');
 	event.create('dread_string').displayName('§7蛔虫线');
+	event.create('pink_kitsune').displayName('§d梦穹狐妖')
 })
