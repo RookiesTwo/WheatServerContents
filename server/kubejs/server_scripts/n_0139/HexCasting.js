@@ -1,9 +1,11 @@
 onEvent('recipes', event => {
+    
     event.remove({output: Item.of('hexcasting:charged_amethyst')})
     event.smoking('kubejs:akashic_dust','hexcasting:akashic_log')
     event.smoking('kubejs:akashic_dust','hexcasting:akashic_log_stripped')
     event.smoking('kubejs:akashic_dust','hexcasting:akashic_wood')
     event.smoking('kubejs:akashic_dust','hexcasting:akashic_wood_stripped')
+
     event.custom(
         {
             "type": "create:splashing",

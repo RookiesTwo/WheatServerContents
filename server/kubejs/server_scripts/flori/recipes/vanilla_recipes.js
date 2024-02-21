@@ -96,4 +96,210 @@ onEvent('recipes', event => {
         C:'touhou_little_maid:wireless_io',
         D:'minecraft:water_bucket'
     })
+
+    //永无止境
+    event.shaped('ywzj_midi:timpani',[
+        'ABA',
+        'CDC',
+        'EFE'
+    ],{
+        A:'minecraft:iron_nugget',
+        B:'#forge:leather',
+        C:'minecraft:stick',
+        D:'minecraft:gold_block',
+        E:'minecraft:tripwire_hook',
+        F:'#minecraft:planks'
+    })
+
+    event.shapeless('ywzj_midi:timpani_mallet_item',['minecraft:stick','#minecraft:wool'])
+
+    event.shaped('ywzj_midi:trombone',[
+        'AB ',
+        'CAC',
+        ' DA'
+    ],{
+        A:'minecraft:iron_ingot',
+        B:'minecraft:gold_block',
+        C:'minecraft:gold_ingot',
+        D:'minecraft:iron_nugget'
+    })
+
+    event.shaped('ywzj_midi:tuba',[
+        'ABB',
+        'CDA',
+        ' AA'
+    ],{
+        A:'minecraft:gold_ingot',
+        B:'minecraft:gold_block',
+        C:'minecraft:iron_nugget',
+        D:'minecraft:iron_ingot'
+    })
+
+    event.shaped('ywzj_midi:trumpet',[
+        ' C ',
+        'CAB'
+    ],{
+        A:'minecraft:gold_ingot',
+        B:'minecraft:gold_block',
+        C:'minecraft:iron_nugget'
+    })
+
+    event.shaped('ywzj_midi:horn',[
+        'C  ',
+        'DB ',
+        ' AB'
+    ],{
+        A:'minecraft:gold_ingot',
+        B:'minecraft:gold_block',
+        C:'minecraft:iron_nugget',
+        D:'minecraft:iron_ingot'
+    })
+
+    event.shaped('ywzj_midi:cello_bow_item',[
+        'AB ',
+        ' AB',
+        'AB '
+    ],{
+        A:'minecraft:string',
+        B:'minecraft:stick'
+    })
+
+    event.shaped('ywzj_midi:double_bass_bow_item',[
+        ' AB',
+        'AB ',
+        ' AB'
+    ],{
+        A:'minecraft:string',
+        B:'minecraft:stick'
+    })
+
+    event.shaped('ywzj_midi:violin_bow_item',[
+        'AB ',
+        'AB ',
+        ' AB'
+    ],{
+        A:'minecraft:string',
+        B:'minecraft:stick'
+    })
+
+    event.shaped('ywzj_midi:viola_bow_item',[
+        ' AB',
+        ' AB',
+        'AB '
+    ],{
+        A:'minecraft:string',
+        B:'minecraft:stick'
+    })
+    
+    event.shaped('ywzj_midi:baton_item',[
+        'B',
+        'A'
+    ],{
+        A:'minecraft:leather',
+        B:'minecraft:stick'
+    })
+
+    event.shaped('ywzj_midi:clarinet',[
+        'A',
+        'B',
+        'C'
+    ],{
+        A:'minecraft:gold_nugget',
+        B:'minecraft:iron_block',
+        C:'minecraft:iron_ingot'
+    })
+
+    event.shaped('ywzj_midi:bassoon',[
+        'DC ',
+        'DBA',
+        'DC '
+    ],{
+        A:'minecraft:gold_nugget',
+        B:'minecraft:iron_ingot',
+        C:'minecraft:iron_nugget',
+        D:'#minecraft:logs'
+    })
+
+    event.shaped('ywzj_midi:bassoon',[
+        'CB',
+        ' B',
+        ' B'
+    ],{
+        B:'minecraft:iron_ingot',
+        C:'minecraft:iron_nugget'
+    })
+
+    event.shaped('ywzj_midi:oboe',[
+        'A',
+        'B',
+        'C'
+    ],{
+        A:'sakura:lumber_bamboo',
+        B:'minecraft:iron_block',
+        C:'minecraft:iron_ingot'
+    })
+
+    event.shaped('ywzj_midi:music_stand_block',[
+        'ABA',
+        ' C ',
+        'C C'
+    ],{
+        A:'minecraft:iron_ingot',
+        B:'minecraft:paper',
+        C:'minecraft:iron_bars'
+    })
+
+    event.shaped('ywzj_midi:violin',[
+        'A',
+        'B',
+        'C'
+    ],{
+        A:'minecraft:tripwire_hook',
+        B:'minecraft:string',
+        C:'#minecraft:planks'
+    })
+
+    event.shaped('ywzj_midi:viola',[
+        ' A ',
+        'CBC',
+        ' C '
+    ],{
+        A:'minecraft:tripwire_hook',
+        B:'minecraft:string',
+        C:'#minecraft:planks'
+    })
+
+    event.shaped('ywzj_midi:cello',[
+        ' A ',
+        'CBC',
+        'CBC'
+    ],{
+        A:'minecraft:tripwire_hook',
+        B:'minecraft:string',
+        C:'#minecraft:planks'
+    })
+
+    event.shaped('ywzj_midi:double_bass',[
+        ' A ',
+        'CBC',
+        'DBD'
+    ],{
+        A:'minecraft:tripwire_hook',
+        B:'minecraft:string',
+        C:'#minecraft:planks',
+        D:'#minecraft:logs'
+    })
+
+    //狐妖
+    event.stonecutting('kuayue:flourescent_light', 'kubejs:pink_kitsune')
+    event.stonecutting('contact:center_mailbox', 'kubejs:pink_kitsune')
+
+    event.shaped('8x kubejs:pink_kitsune',[
+        'AAA',
+        'ABA',
+        'AAA'
+    ],{
+        A:'#c:dyes',
+        B:'minecraft:wheat_seeds'
+    })
 })
