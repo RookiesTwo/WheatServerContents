@@ -43,4 +43,7 @@ onEvent('item.tooltip', tooltip => {
   tooltip.addAdvanced('kubejs:error_item', (item, advanced, text) => {
     text.add(1, Text.of('§1调试物品'))
   })
+  tooltip.addAdvanced('kubejs:pink_kitsune', (item, advanced, text) => {
+    text.add(1, Text.of('§7§o“很遗憾，我不会跟着你的脑袋”'))
+  })
 })

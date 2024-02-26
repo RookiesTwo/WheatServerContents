@@ -1,5 +1,6 @@
 onEvent('item.registry', event => {
     event.create('incomplete_ink').displayName('未完成的墨水')
+
     event.create('akashic_dust').displayName('启迪木尘')
     event.create('red_fox_tail').displayName('狐狸尾巴')
     event.create('snow_fox_tail').displayName('雪狐尾巴')
